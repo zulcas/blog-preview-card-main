@@ -3,7 +3,9 @@
 * {
    box-sizing: border-box;
 }
-
+h1:hover{
+  color: hsl(47, 88%, 63%);
+}
 body{
    background-color: hsl(47, 88%, 63%);
    font-family: "Figtree";
@@ -17,12 +19,12 @@ body{
    padding: 20px;
    display: flex;
    flex-direction: column;
-   height: 550px;
    margin: 200px 10px;
 }
 
 .course__image{
    margin-bottom: 20px;
+   border-radius: 10px;
 }
 
 .course__link{
@@ -36,22 +38,28 @@ body{
    border-radius: 5%;
    margin-bottom: 15px;
 }
-
+.course__date{
+   font-size: 11px;
+}
 .course__description{
    font-size: 14px;
    padding-bottom: 20px;
    color: hsl(0, 0%, 50%);
    line-height: 25px;
 }
+.course__author{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
 
 .course__author__picture{
-   width: 50px;
-   float: left;
-   padding-right: 10px
+   width: 40px;
+  
 }
 
 .course__author__name{
- font-weight: 500;
- margin-top: 8px;
+ font-weight: 800;
+ 
  
 }
